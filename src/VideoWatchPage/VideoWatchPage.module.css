@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(123, 231, 231);
+    margin:none;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  
+  }
+
+  .MainContainer{
+    margin-top:100px;
+  }
+  .PlayerContainer{
+    padding-top: 30px;
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .PlayerSection{
+    /* padding-top: 30px; */
+    height: 200vh;
+    width: 65%;
+  }
+  
+  
+  .PlayerSection >a {
+    margin-left:10px;
+  }
+  
+  .PlayerSection >h3{
+    text-align: center;
+  }
+  
+  .PlaylistSection{
+    margin-left: 5%;
+    width: 25%;
+    border-left: 2px solid #ccc;
+  }
+  
+  .PlaylistSection h3{
+    text-align: center;
+  }
+  
+  .VideoPlayer{
+    margin: 0 auto;
+    width: 100%;
+    height: 460px;
+  }
+  
+  .ThumbnailPlayer{
+    padding: 30px 0;
+    width: 100%;
+    height: 300px;
+    border:none;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .ViewSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ViewSection i {
+    margin:20px;
+    font-size:20px;
+  }
+
+  .PlayerSection p,.PlayerSection h3 {
+    margin:5% 10%;
+    
+  }
+
+
+  .Saved {
+    color:#FAD744;
+  }
+
+  .Liked {
+    color: red;
+  }
